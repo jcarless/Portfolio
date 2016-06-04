@@ -7,11 +7,6 @@ module.exports = function(app){
 
 	});
 
-	app.get('/coderswholift', function(req, res){
-		res.sendFile(path.join(__dirname + '/../public/fitness.html'));
-
-	});
-
 	app.use(function(req, res){
 		res.sendFile(path.join(__dirname + '/../public/index.html'));
 	});
