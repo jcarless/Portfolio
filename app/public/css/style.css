@@ -1,5 +1,5 @@
 #profilePhoto{
-	height: 400px;
+	max-height: 400px;
 	max-width: 100%;
 	margin-bottom: 40px;
 }
@@ -9,7 +9,8 @@
 }
 
 .logos{
-	height: 125px;
+	max-height: 125px;
+	height: auto;
 }
 
 #express{
