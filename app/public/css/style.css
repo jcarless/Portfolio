@@ -4,8 +4,13 @@
 	margin-bottom: 40px;
 }
 
-#jewel{
+.portfolio-item{
 	height: 400px;
+}
+
+
+#jewel{
+	width: 400px;
 }
 
 .logos{
